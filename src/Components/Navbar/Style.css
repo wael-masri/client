@@ -1,0 +1,32 @@
+.navbar_custom {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  position: fixed;
+  background: #111111ba;
+  width: 100%;
+  z-index: 999;
+}
+.active_navbar_custom {
+  background: #e67e26;
+}
+.li_cutom {
+  margin: 0px 25px !important;
+}
+.ul_costom {
+  margin-right: 150px;
+}
+.custom_link {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: flex-end;
+  }
+}

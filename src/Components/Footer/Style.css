@@ -1,0 +1,17 @@
+.footer {
+    
+    background: black;
+    width: 100%;
+}
+.inner_footer {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.copyright-text {
+    color: #e67e26;
+
+}
+

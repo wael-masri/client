@@ -1,0 +1,23 @@
+.containertitle {
+    background: #0c0c14;
+    
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .texttitleglobal {
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.658);
+    width: 100%;
+    text-align: center;
+  }
+  .titleglobal {
+    letter-spacing: 2px;
+    color: #e67e26;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
